@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url(./bg-time.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.head{
+    display: block;
+    position: absolute;
+    top:10%;
+    text-align: center;
+    
+}
+img{
+    margin: 20px;
+}
+.head h1{
+    font-size: 55px;
+    padding:15px;
+    padding-left: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:transparents;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head p{
+    font-size: 28px;
+    color: rgb(33, 27, 39);
+    border-bottom: solid 1px black;
+    font-weight: 550;
+}
+.content{
+    width: 30%;
+    height: 300px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 10px;
+}
+#timer{
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: 30px auto;
+    padding: 32px;
+}
+.button{
+    text-align: center;
+}
+button{
+    border: none;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+#startbtn{
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 12px;
+}
+#pause{
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 12px;
+}
+#reset {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 12px;
+}
